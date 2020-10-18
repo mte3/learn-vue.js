@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+   啊啊啊啊
+</div>
+<script>
+    //一、promise处理形式
+    //什么情况下会使用到promise：
+    //一般情况下是有异步操作时，使用promise对这个异步操作进行封装
+    //new -> 构造函数（1.保存了一些状态信息 2.执行传入的函数）
+    //在执行传入的回调函数时，会传入两个人参数：resolve ， reject这两个参数本身就是函数
+    new Promise((resolve,reject) => {
+        setTimeout(() =>{
+            //成功时调用resolve
+            // resolve('数据请求成功')
+
+            //失败时调用reject
+            reject('信息获取失败，未知错误')
+            }
+        ),1000
+    }).then((data) => {
+        console.log(data);
+        console.log(data);
+        console.log(data);
+        console.log(data);
+        console.log(data);
+    }).catch((err) => {
+        console.log(err);
+        console.log(err);
+        console.log(err);
+        console.log(err);
+        console.log(err);
+        console.log(err);
+    })
+
+
+    //二、Promise的第二种用法
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            // resolve('数据请求成功')
+            reject('数据请求失败，未知错误')
+        },1000)
+    }).then(data => {
+        console.log(data)
+    },err =>{
+        console.log(err)
+    })
+
+    //三、链式编程
+    new Promise((resolce , reject) => {
+        setTimeout(() => {
+            //第一次网络请求代码
+            resolce()
+        },1000)
+    }).then(() => {
+        //第一次拿到结果处理代码
+        console.log('第一次处理成功');
+        console.log('第一次处理成功');
+        console.log('第一次处理成功');
+        console.log('第一次处理成功');
+        console.log('第一次处理成功');
+        return new Promise((resolve ,reject) => {
+        //第二次网络请求代码
+        resolve()
+    },1000)
+    }).then(() =>{
+        //第二次拿到结果处理代码
+        console.log('第二次处理成功');
+        console.log('第二次处理成功');
+        console.log('第二次处理成功');
+        console.log('第二次处理成功');
+        console.log('第二次处理成功');
+        return new Promise((resolve ,reject) => {
+            //第三次网络请求代码
+            resolve()
+        },1000)
+    }).then(() =>{
+        //第三次拿到结果处理代码
+        console.log('第三次处理成功');
+        console.log('第三次处理成功');
+        console.log('第三次处理成功');
+        console.log('第三次处理成功');
+        console.log('第三次处理成功');
+        return new Promise((resolve , reject) => {
+            //第四次网络请求代码
+            resolve()
+        },1000)
+    }).then(() => {
+        //第四次拿到结果处理代码
+        console.log('第四次处理代码成功');
+        console.log('第四次处理代码成功');
+        console.log('第四次处理代码成功');
+        console.log('第四次处理代码成功');
+        console.log('第四次处理代码成功');
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //promise处理形式
+    //什么情况下会使用到promise：
+    //一般情况下是有异步操作时，使用promise对这个异步操作进行封装
+    //new -> 构造函数（1.保存了一些状态信息 2.执行传入的函数）
+    //在执行传入的回调函数时，会传入两个人参数：resolve ， reject这两个参数本身就是函数
+    new Promise((resolve,reject) => {
+        setTimeout(() =>{
+                //成功时调用resolve
+                // resolve('数据请求成功')
+
+                //失败时调用reject
+                reject('信息获取失败，未知错误')
+            }
+        ),1000
+    }).then((data) => {
+        console.log(data);
+        console.log(data);
+        console.log(data);
+        console.log(data);
+        console.log(data);
+    }).catch((err) => {
+        console.log(err);
+        console.log(err);
+        console.log(err);
+        console.log(err);
+        console.log(err);
+        console.log(err);
+    })
+
+
+    //Promise的第二种用法
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            // resolve('数据请求成功')
+            reject('数据请求失败，未知错误')
+        },1000)
+    }).then(data => {
+        console.log(data)
+    },err =>{
+        console.log(err)
+    })
+</script>
+</html>

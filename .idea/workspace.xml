@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adebc848-c405-4d48-aa06-57be35f60ced" name="Default Changelist" comment="" />
+    <list default="true" id="adebc848-c405-4d48-aa06-57be35f60ced" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vueCli2_project/src/common/toast/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCli2_project/src/common/toast/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCli2_project/src/components/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueCli2_project/src/components/Profile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCli2_project/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueCli2_project/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +26,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/management_system" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\安卓vue.js\vue_project\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1hJ8i4kDnSYy3PBOGWJ8Kuw0xnj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,7 +48,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vueCli2_project/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,13 +59,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\安卓vue.js\vue_project\vueCli2_project\src\components" />
-      <recent name="D:\安卓vue.js\vue_project(项目)\webpack的使用" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\安卓vue.js\vue_project(项目)\webpack的使用\webpack的配置\src\js" />
       <recent name="D:\安卓vue.js\vue_project(项目)\webpack的使用\webpack配置" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\安卓vue.js\vue_project\vueCli2_project\src" />
+      <recent name="D:\安卓vue.js\vue_project\vueCli2_project\src\components" />
+      <recent name="D:\安卓vue.js\vue_project(项目)\webpack的使用" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -110,6 +125,18 @@
       <workItem from="1602739774374" duration="4578000" />
       <workItem from="1602820147799" duration="2502000" />
       <workItem from="1602940582855" duration="718000" />
+      <workItem from="1603023999278" duration="743000" />
+      <workItem from="1606656830047" duration="17000" />
+      <workItem from="1606658167644" duration="984000" />
+      <workItem from="1606706062722" duration="599000" />
+      <workItem from="1606793194544" duration="633000" />
+      <workItem from="1606889362081" duration="599000" />
+      <workItem from="1606969767814" duration="599000" />
+      <workItem from="1607224538258" duration="622000" />
+      <workItem from="1607313131194" duration="597000" />
+      <workItem from="1607398879694" duration="1196000" />
+      <workItem from="1607487999398" duration="84000" />
+      <workItem from="1609566884338" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1602905316888</created>
@@ -141,10 +168,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602905315743" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602905393484">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607488077527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602905393484" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607488077527" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602905326872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

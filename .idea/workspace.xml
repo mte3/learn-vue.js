@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adebc848-c405-4d48-aa06-57be35f60ced" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vueCli2_project/src/common/toast/Toast.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueCli2_project/src/common/toast/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCli2_project/src/common/model/Model.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCli2_project/src/common/model/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vueCli2_project/src/components/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueCli2_project/src/components/Profile.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vueCli2_project/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueCli2_project/src/main.js" afterDir="false" />
@@ -19,8 +18,9 @@
       <list>
         <option value="Less File" />
         <option value="CSS File" />
-        <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="XSLT Stylesheet" />
+        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -48,7 +48,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vueCli2_project/src" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/1+X/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -136,7 +136,7 @@
       <workItem from="1607313131194" duration="597000" />
       <workItem from="1607398879694" duration="1196000" />
       <workItem from="1607487999398" duration="84000" />
-      <workItem from="1609566884338" duration="248000" />
+      <workItem from="1609566884338" duration="4793000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1602905316888</created>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602905316888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Toast全局封装">
+      <created>1609567334791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609567334791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,32 +160,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="Toast全局封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toast全局封装" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601483318997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601483318997" />
-    <state x="1146" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599789063390">
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1609567332976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1146" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599789063390" />
-    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1602905315743">
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609567332976" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609571243619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602905315743" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607488077527">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609571243619" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609567346068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607488077527" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602905326872">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609567346068" />
+    <state x="0" y="0" width="1128" height="1020" key="dock-window-1" timestamp="1609569932998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602905326872" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601281528136">
+    <state x="0" y="0" width="1128" height="1020" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1609569932998" />
+    <state x="-62" y="44" width="1128" height="792" key="dock-window-2" timestamp="1609570760243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601281528136" />
+    <state x="-62" y="44" width="1128" height="792" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609570760243" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609568759601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609568759601" />
   </component>
 </project>

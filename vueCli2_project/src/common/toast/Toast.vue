@@ -9,7 +9,7 @@
       return {
         showToast:false,
         type:"normal",
-        duration:3000,//显示时间\
+        duration:3000,//显示时间
         mes:'消息提示',
       }
     },

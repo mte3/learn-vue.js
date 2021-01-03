@@ -3,7 +3,9 @@ import Model from "./Model";
 
 const ModelConstructor = Vue.extend(Model)
 
-function showModel(title, mes, w = 400, h = 300, cancel = '取消', sure = '确定') {
+function showModel(
+  title, mes,fun, w = 400, h = 300,
+  cancel = '取消', sure = '确定') {
   const _model = new ModelConstructor({
     data() {
       return {
@@ -13,7 +15,8 @@ function showModel(title, mes, w = 400, h = 300, cancel = '取消', sure = '确�
         title: title,
         cancel: cancel,
         sure: sure,
-        mes: mes
+        mes: mes,
+        fun:fun
       }
     }
   })

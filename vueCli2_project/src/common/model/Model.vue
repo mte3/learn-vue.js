@@ -16,6 +16,7 @@
     name: "Model",
     data() {
       return {
+        fun:function(){},
         w:400,
         h:300,
         title: '我是标题',
@@ -29,7 +30,6 @@
     },
     methods: {
       handelK(){
-        console.log('=========')
         event.stopPropagation()
       },
       handelModel() {
@@ -38,6 +38,7 @@
       handel(e) {
         if (e === 'sure') {
           this.isShowModel = false
+          this.fun()
         } else if (e === 'cancel') {
           this.isShowModel = false
         }
@@ -83,6 +84,7 @@
   .mes {
     width: 100%;
     padding: 12px;
+    text-indent: 2em;
     word-wrap: break-word;
   }
 
